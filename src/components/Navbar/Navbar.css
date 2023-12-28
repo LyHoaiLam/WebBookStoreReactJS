@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1c2331;
+    padding: 12px;
+}
+
+.icon-size {
+    font-size: 35px;
+}
+
+.icon-book {
+    margin-left: 50px;
+}
+
+.icon-book, .icon-cart:hover {
+    cursor: pointer;
+}
+
+.icon-cart {
+    margin-right: 50px;
+}
+
+.img {
+    width: 100%;
+}
+

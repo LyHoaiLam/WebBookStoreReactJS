@@ -1,0 +1,43 @@
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: #1c2331;
+    padding: 20px;
+    color: white;
+    height: 300px;
+    margin-top: 40px;
+    
+  }
+  .item {
+    flex: 1;
+    padding: 10px;
+  }
+
+  .padding-top {
+    padding-top: 20px;
+    margin-left: 15px;
+  }
+
+  .icon-3 {
+    margin-left: 27px;
+    
+  }
+
+  .border-1 {
+    border-top: 2px solid red;
+    padding-top: 12px;
+  }
+
+.hover-content {
+  cursor: pointer;
+}
+
+.hover-content:hover {
+  color: red;
+}
+
+.p15px {
+  margin-left: 15px;
+}

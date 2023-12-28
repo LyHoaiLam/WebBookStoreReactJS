@@ -1,0 +1,57 @@
+
+.img-product {
+
+    transition: transform 0.2s ease-in-out;
+}
+.img-product:hover {
+    transform: translateY(-5px);
+}
+
+
+
+.product {
+    width: 350px;
+    height: 530px;
+    text-align: center;
+    border-radius: 5px;cursor: pointer;
+}
+
+.product:hover {
+    background-color: rgb(186, 183, 190);
+}
+
+.product-infor {
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #ced4da;
+}
+
+.product-title {
+    font-size: 45px;
+}
+.product-price {
+    font-size: 30px;
+    color: red;
+    padding: 9px;
+}
+
+.product-price:hover {
+    background-color: rgb(151, 147, 147);
+}
+.product-button {
+    background-color: #1C2331;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.product-icon-button {
+    margin-left: 20px;
+}
+
+.product-button:hover {
+    background-color: #2a344a;
+    border: 2px solid red;
+}
